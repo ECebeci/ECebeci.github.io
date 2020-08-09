@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Hello World!"
+date:   0-01-01 11:52:54 +0300
+tags: updates
+author: cebeci
+paginate: true
+---
+Bu site güncellenecek. Takipte kalın!

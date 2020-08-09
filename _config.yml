@@ -1,0 +1,63 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Emre Cebeci
+email: emre.cebeci@aol.com
+description: >- # this means to ignore newlines until "baseurl:"
+ master of none
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /images/me.jpg
+twitter_username: cebeciinside
+github_username:  ECebeci
+
+# Build settings
+theme: jekyll-theme-so-simple
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+paginate: 5
+paginate_path: /posts/page:num/
+copyright: ""
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+search_full_content: true
+tag_archive_path: "/tags/#"
+page_excerpts: true
+read_time: true
+words_per_minute: 200
+mathjax:
+  enable: true
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/cebeciinside
+    icon: fab fa-twitter-square
+  - title: GitHub
+    url: https://github.com/ECebeci
+    icon: fab fa-github-square
+  - title: Telegram
+    url: https://t.me/Cebeci
+    icon: fab fa-telegram
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss-square
